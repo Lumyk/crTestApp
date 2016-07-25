@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  qoocoTestApp
+//
+//  Created by Evgeny Kalashnikov on 25.07.16.
+//  Copyright © 2016 Evgeny Kalashnikov. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <GoogleMaps/GoogleMaps.h>
+#import <MagicalRecord/MagicalRecord.h>
+#import <MagicalRecord/MagicalRecord+ShorthandMethods.h>
+
+#import "AppDelegate.h"
+#import "MLStorage.h"
+
+#import "Fields.h"
+
+
+#define GoogleApiKey @"AIzaSyAQhkn7QNHTqAYoLqf86De2JzpWGEGh3YI"
+
+#endif
