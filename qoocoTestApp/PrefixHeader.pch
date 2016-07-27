@@ -8,9 +8,8 @@
 
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 #import <GoogleMaps/GoogleMaps.h>
-#import <MagicalRecord/MagicalRecord.h>
-#import <MagicalRecord/MagicalRecord+ShorthandMethods.h>
 
 #import "AppDelegate.h"
 #import "MLStorage.h"

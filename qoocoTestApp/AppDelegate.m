@@ -17,10 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [GMSServices provideAPIKey:GoogleApiKey];
-    [MagicalRecord setupCoreDataStackWithStoreNamed:@"Model.xcdatamodeld"];
     
     [[MLStorage shared] initDb];
-
     return YES;
 }
 

@@ -3,5 +3,4 @@
 
 target 'qoocoTestApp' do
 	pod 'GoogleMaps'
-	pod 'MagicalRecord'
 end

@@ -8,9 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
+@interface NSManagedObject (MLStorage)
+
++ (instancetype) createEntity;
++ (NSArray *) findAllSortedBy:(NSString *)sortKey ascending:(BOOL)ascending;
+
+@end
+
 @interface MLStorage : NSObject
 
 + (instancetype) shared;
 - (void) initDb;
+- (NSManagedObjectContext *)managedObjectContext;
 - (NSArray *) allFields;
 @end
